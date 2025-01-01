@@ -7,10 +7,25 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+
+      padding: "16px",
+    },
+    fontFamily: {
+      primary: "var(--font-libre-baskerville)",
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#7d7d7d",
+        lightGray: "#e5e5e5",
+        lighterGray: "#f3f3f3",
+      },
+      screens: {
+        sm: "500px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
       },
     },
   },
