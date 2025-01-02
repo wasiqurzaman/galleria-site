@@ -8,30 +8,34 @@
   }
 
   .display {
-    @apply font-primary text-lighterGray text-[200px] leading-[150px];
+    @apply font-primary font-bold text-lighterGray text-[200px] leading-[150px];
   }
   .heading1 {
-    @apply font-primary text-black text-[56px] leading-[64px];
+    @apply font-primary font-bold text-black text-[56px] leading-[64px];
   }
   .heading2 {
-    @apply font-primary text-black text-[24px] leading-[29px];
+    @apply font-primary font-bold text-black text-[24px] leading-[29px];
   }
   .heading3 {
-    @apply font-primary text-black text-[18px] leading-[22px];
+    @apply font-primary font-bold text-black text-[18px] leading-[22px];
   }
   .subhead1 {
-    @apply font-primary text-black text-[15px] leading-[19px];
+    @apply font-primary font-normal text-black text-[15px] leading-[19px];
   }
   .subhead2 {
-    @apply font-primary text-black text-[13px] leading-[17px];
+    @apply font-primary font-normal text-black text-[13px] leading-[17px];
   }
   .link1 {
-    @apply font-primary text-primary text-[12px] leading-[15px] tracking-[2.5px];
+    @apply font-primary font-bold text-primary text-[12px] leading-[15px] tracking-[2.5px];
   }
   .link2 {
-    @apply font-primary text-primary text-[9px] leading-[11px] tracking-[2px];
+    @apply font-primary font-bold  text-primary text-[9px] leading-[11px] tracking-[2px];
   }
   .body {
-    @apply font-primary text-primary text-[14px] leading-[28px];
+    @apply font-primary font-bold text-primary text-[14px] leading-[28px];
   }
+}
+
+.swiper-pagination-progressbar-fill {
+  background-color: red !important;
 }

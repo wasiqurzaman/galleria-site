@@ -9,9 +9,9 @@ export default {
   theme: {
     container: {
       center: true,
-
       padding: "16px",
     },
+
     fontFamily: {
       primary: "var(--font-libre-baskerville)",
     },
