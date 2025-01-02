@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import Image from "next/image";
 import Link from "next/link";
 
-type ImageData = {
+export type ImageData = {
   name: string;
   year: number;
   description: string;
@@ -30,7 +30,7 @@ export default async function Home() {
   console.log(data);
   return (
     <div className="container mx-auto">
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 auto-rows-[10px] gap-x-5 gap-y-0 py-5">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 auto-rows-[minmax(10px,_auto)] gap-x-5 gap-y-0 py-5">
         {data.map((item, index) => (
           <li
             key={index}
